@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+
+@media screen and (max-width: 680px) {
+
+    header {
+        background-color: black ;
+        height: 21%;
+        
+        
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .principal {
+        background-image: url(imagem/background.png) ;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+    }
+
+     li, a {
+        font-size: 14px;
+        
+    }
+
+    section {
+        width: 100%;
+        display: flex;
+        
+    
+}
+        
+
+    section h2 {
+        font-size: 30px;
+        margin-left: -30px;
+    }
+
+    section p {
+        font-size: 13px;
+        margin-left: -30px;
+    }
+
+    section div button {
+        width: 140px;
+        height: 35px;
+        font-size: 12px;
+        margin-left: -30px;
+    }
+
+    .minha-imagem {
+        height: 150px;
+        width: 150px;
+       
+    }
+
+    .projetos {
+        width: 100%;
+      
+    }
+
+    .cards-projeto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        width: 45%;
+        height: 350px;
+    }
+
+    .card h5 {
+        font-size: 35px;
+    }
+
+    .card a {
+        margin-left: 20px;
+        width: 80px;
+        font-size: 12px;
+        
+    }
+
+    
+    
+}
