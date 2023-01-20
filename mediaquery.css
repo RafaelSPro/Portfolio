@@ -63,9 +63,21 @@
        
     }
 
+    .meu-nome h1 {
+        font-size: 43px;
+    }
+
+    .meu-nome p {
+        font-size: 20px;
+    }
+
     .projetos {
         width: 100%;
       
+    }
+
+    .projetos h2 {
+        font-size: 35px;
     }
 
     .cards-projeto {
@@ -77,18 +89,24 @@
 
     .card {
         width: 45%;
-        height: 400px;
+        height: 350px;
+        padding-bottom: 30px;
     }
 
     .card h5 {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .card a {
         margin-left: 20px;
         width: 80px;
         font-size: 12px;
+       
         
+    }
+
+    footer h4 {
+        font-size: 25px;
     }
 
     
